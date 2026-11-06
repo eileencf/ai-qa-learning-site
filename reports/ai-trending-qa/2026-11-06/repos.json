@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-06",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "NVIDIA/auto-ontology",
+      "html_url": "https://github.com/NVIDIA/auto-ontology",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 7820,
+      "forks_count": 630,
+      "open_issues_count": 57,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+        "Discover: generate enterprise ontologies from metadata; connect existing ontologies and semantic models; build AI-ready knowledge graphs.",
+        "Ground: give agents trusted business meaning for metrics, entities, and relationships; reconcile inconsistent definitions across systems.",
+        "Validate: check generated queries against certified definitions and lineage; return provenance with every answer.",
+        "Expose: serve context to any agent harness through MCP, CLI, and API.",
+        "**Natural-language querying** of structured data — questions are translated to"
+      ],
+      "readme_excerpt": "<!--\nSPDX-FileCopyrightText: Copyright (c) 2026, NVIDIA CORPORATION & AFFILIATES.\nAll rights reserved.\nSPDX-License-Identifier: Apache-2.0\n-->\n\n# Auto Ontology\n\nAgents can retrieve documents and query databases, but reliability gates agentic analytics: a revenue metric answered faster is worth nothing if the number is wrong. Agents need a context layer that tells them where data lives, what it means, whether to use it, how to use it, where it came from, and what is similar. NVIDIA Auto Ontology is an open library that builds that layer from enterprise metadata, reconciles definitions across systems, and exposes it to any agent harness through MCP, CLI, and API. It complements the semantic models customers already own.\n\nIt enables developers to:\n\n- Discover: generate enterprise ontologies from metadata; connect existing ontologies and semantic models; build AI-ready knowledge graphs.\n- Ground: give agents trusted business meaning for metrics, entities, and relationships; reconcile inconsistent definitions across systems.\n- Validate: check generated queries against certified definitions and lineage; return provenance with every answer.\n- Expose: serve context to any agent harness thr",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "mattpocock/skills",
+      "html_url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 315667,
+      "forks_count": 26421,
+      "open_issues_count": 216,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Skills for Real Engineers. Straight from my .agents directory.",
+        "Ask you which issue tracker you want to use (GitHub, GitLab, local files, or anything else you describe)",
+        "Ask you what labels you apply to tickets when you triage them (`/triage` uses labels)",
+        "Ask you where you want to save any docs we create",
+        "`/grill-me` - for non-code uses",
+        "`/grill-with-docs` - same as `/grill-me`, but adds more goodies (see below)"
+      ],
+      "readme_excerpt": "<p>\n  <a href=\"https://www.aihero.dev/s/skills-newsletter\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\">\n      <img alt=\"Skills\" src=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\" width=\"369\">\n    </picture>\n  </a>\n</p>\n\n# Skills For Real Engineers\n\n[![skills.sh](https://skills.sh/b/mattpocock/skills)](https://skills.sh/mattpocock/skills)\n\nMy agent skills that I use every day to do real engineering - not vibe coding.\n\nDeveloping real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve.\n\nThese skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy.\n\nIf you want to keep up with changes to these ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Usagi-org/ai-goofish-monitor",
+      "html_url": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-assistant",
+        "ai-tools",
+        "automation",
+        "gemini",
+        "goofish",
+        "open-source",
+        "openai",
+        "playwright",
+        "tool",
+        "xian-yu",
+        "xianyu",
+        "xianyu-bot"
+      ],
+      "stargazers_count": 17878,
+      "forks_count": 2970,
+      "open_issues_count": 48,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+        "**Web 可视化管理**: 任务管理、账号管理、AI 标准编辑、运行日志、结果浏览",
+        "**AI 驱动**: 自然语言创建任务，多模态模型深度分析商品",
+        "**多任务并发**: 独立配置关键词、价格、筛选条件和 AI Prompt",
+        "**高级筛选**: 包邮、新发布时间范围、省/市/区三级区域筛选",
+        "**即时通知**: 支持 ntfy.sh、企业微信、Bark、Telegram、Webhook等多渠道"
+      ],
+      "readme_excerpt": "# 闲鱼智能监控系统\n\n[中文] ｜ [English](README_EN.md)\n\n基于 Playwright 和 AI 的闲鱼多任务实时监控，提供完整的 Web 管理界面。\n\n\n## 核心特性\n\n- **Web 可视化管理**: 任务管理、账号管理、AI 标准编辑、运行日志、结果浏览\n- **AI 驱动**: 自然语言创建任务，多模态模型深度分析商品\n- **多任务并发**: 独立配置关键词、价格、筛选条件和 AI Prompt\n- **高级筛选**: 包邮、新发布时间范围、省/市/区三级区域筛选\n- **即时通知**: 支持 ntfy.sh、企业微信、Bark、Telegram、Webhook等多渠道\n- **定时调度**: 支持 Cron 配置周期性任务\n- **账号与代理轮换**: 多账号管理、任务绑定账号、代理池轮换与失败重试\n- **Docker 部署**: 一键容器化部署\n\n## 截图\n\n![监控概览](static/img.png)\n![任务管理](static/img_1.png)\n![结果查看](static/img_2.png)\n![通知推送](static/img_3.png)\n\n## 🐳 Docker 部署（推荐）\n\n```bash\ngit clone https://github.com/Usagi-org/ai-goofish-monitor && cd ai-goofish-monitor\ncp .env.example .env\nvim .env # 填写相关配置项\ndocker compose up -d\ndocker compose logs -f app\ndocker compose down\n```\n\n如果镜像无法访问或下载速度慢，可尝试使用加速：\n```bash\n\ndocker pull ghcr.nju.edu.cn/usagi-org/ai-goofish:latest\ndocker tag ghcr.nju.edu.cn/usagi-org/ai-goofish:latest ghcr.io/usagi-org/ai-goofish:latest\ndocker compose up -d\n\n```\n\n- 默认 Web UI 地址：`http://127.0.0.1:8000`\n- Docker 镜像已内置 Chromium，无需宿主机额外安装浏览器。\n- 官方镜像地址：`ghcr.io/usagi-org/ai-goofish:latest`\n- 更新镜像：`docker compose pull && docker compose up -d`\n- 如果你修改了 `.env` 中的 `SERVER_PORT`，请同步更新 `docker-compose.yaml` 里的端口映射。\n- `docker-c",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "D4Vinci/Scrapling",
+      "html_url": "https://github.com/D4Vinci/Scrapling",
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-scraping",
+        "automation",
+        "crawler",
+        "crawling",
+        "crawling-python",
+        "data",
+        "data-extraction",
+        "mcp",
+        "mcp-server",
+        "playwright",
+        "python",
+        "scraping",
+        "selectors",
+        "stealth",
+        "web-scraper",
+        "web-scraping",
+        "web-scraping-python",
+        "webscraping",
+        "xpath"
+      ],
+      "stargazers_count": 98289,
+      "forks_count": 10296,
+      "open_issues_count": 14,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+        "**Fetch & interact（https://scrapling.readthedocs.io/en/latest/fetching/choosing.html）**: Fa"
+      ],
+      "readme_excerpt": "<!-- mcp-name: io.github.D4Vinci/Scrapling -->\n\n<h1 align=\"center\">\n    <a href=\"https://scrapling.readthedocs.io\">\n        <picture>\n          <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/D4Vinci/Scrapling/main/docs/assets/cover_dark.svg?sanitize=true\">\n          <img alt=\"Scrapling Poster\" src=\"https://raw.githubusercontent.com/D4Vinci/Scrapling/main/docs/assets/cover_light.svg?sanitize=true\">\n        </picture>\n    </a>\n    <br>\n    <small>Effortless Web Scraping for the Modern Web</small>\n</h1>\n\n<p align=\"center\">\n    <a href=\"https://trendshift.io/repositories/14244\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/14244\" alt=\"D4Vinci%2FScrapling | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n    <a href=\"https://www.star-history.com/d4vinci/scrapling\"><img src=\"https://api.star-history.com/badge?repo=D4Vinci/Scrapling&type=rank\" alt=\"Star History Rank\" style=\"height: 55px;\" height=\"55\"/></a>\n    <br/>\n    <a href=\"https://github.com/D4Vinci/Scrapling/blob/main/docs/README_AR.md\"><img alt=\"README بالعربية\" title=\"README بالعربية\" src=\"https://img.shields.io/badge/Arabic-DFE0E5\"></a",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "vercel-labs/agent-desktop",
+      "html_url": "https://github.com/vercel-labs/agent-desktop",
+      "description": "Computer use CLI for AI agents",
+      "language": "Rust",
+      "topics": [
+        "accessibility",
+        "accessibility-api",
+        "ai-agents",
+        "automation",
+        "cli",
+        "computer-use",
+        "computer-use-agent",
+        "computer-use-agents",
+        "desktop-automation",
+        "macos",
+        "mcp",
+        "rust"
+      ],
+      "stargazers_count": 17274,
+      "forks_count": 1228,
+      "open_issues_count": 174,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Computer use CLI for AI agents",
+        "**Refs belong to their snapshot.** A bare `@e8` is rejected with `INVALID_ARGS`. When the UI changes, an action",
+        "**Several windows** give `AMBIGUOUS_TARGET`; `snapshot` lists the candidate window ids in `error.details`. Pass one",
+        "**Dense apps:** map first with `snapshot --skeleton --app Slack -i --compact`, then drill into one region with",
+        "**Headless by default.** Ref actions use the accessibility API without moving the pointer or taking focus. The global",
+        "**Post-action waits** observe the ref's original process. Window-owned refs stay pinned to their original window,"
+      ],
+      "readme_excerpt": "# agent-desktop\n\nComputer use for AI agents: see and operate desktop apps on macOS, Windows, and Linux through the OS accessibility tree.\n\n<p>\n  <a href=\"https://vercel.com/labs#labs-products\"><img alt=\"Vercel Labs Product\" src=\"https://img.shields.io/badge/LABS-PRODUCT-0a0a0a.svg?style=for-the-badge&amp;logo=Vercel&amp;labelColor=000000\" height=\"28\"></a>\n  <a href=\"https://www.npmjs.com/package/agent-desktop\"><img alt=\"npm version: agent-desktop\" src=\"https://img.shields.io/npm/v/agent-desktop.svg?style=for-the-badge&amp;labelColor=000000\" height=\"28\"></a>\n  <a href=\"https://github.com/vercel-labs/agent-desktop/blob/main/LICENSE\"><img alt=\"License: Apache-2.0\" src=\"https://img.shields.io/github/license/vercel-labs/agent-desktop.svg?style=for-the-badge&amp;labelColor=000000\" height=\"28\"></a>\n  <a href=\"https://www.npmjs.com/package/agent-desktop\"><img alt=\"npm downloads per month: agent-desktop\" src=\"https://img.shields.io/npm/dm/agent-desktop.svg?style=for-the-badge&amp;labelColor=000000&amp;label=npm%20downloads\" height=\"28\"></a>\n</p>\n\nagent-desktop gives an AI agent computer use without screenshots or pixel matching. It reads the accessibility tree of a desktop app and returns i",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "max-sixty/worktrunk",
+      "html_url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "topics": [
+        "agents",
+        "claude-code",
+        "codex",
+        "developer-tools",
+        "git",
+        "worktrees"
+      ],
+      "stargazers_count": 11628,
+      "forks_count": 445,
+      "open_issues_count": 48,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+        "**Hooks（https://worktrunk.dev/hook/）** — run commands on create, pre"
+      ],
+      "readme_excerpt": "<!-- markdownlint-disable MD033 -->\n\n<h1><img src=\"docs/public/logo.png\" alt=\"Worktrunk logo\" width=\"50\" align=\"absmiddle\">&nbsp;&nbsp;Worktrunk</h1>\n\n<!-- Crates.io badge below disabled while shields.io is rate-limited by crates.io\n     (renders \"CRATES.IO: INVALID\"). Tracking: badges/shields#11879. Restore once fixed.\n     [![Crates.io](https://img.shields.io/crates/v/worktrunk?style=for-the-badge&logo=rust)](https://crates.io/crates/worktrunk)\n-->\n[![Docs](https://img.shields.io/badge/docs-worktrunk.dev-blue?style=for-the-badge&logo=gitbook)](https://worktrunk.dev)\n[![License: MIT OR Apache-2.0](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue?style=for-the-badge)](https://opensource.org/licenses/MIT)\n[![CI](https://img.shields.io/github/actions/workflow/status/max-sixty/worktrunk/ci.yaml?event=push&branch=main&style=for-the-badge&logo=github)](https://github.com/max-sixty/worktrunk/actions?query=branch%3Amain+workflow%3Aci)\n[![Codecov](https://img.shields.io/codecov/c/github/max-sixty/worktrunk?style=for-the-badge&logo=codecov)](https://codecov.io/gh/max-sixty/worktrunk)\n[![Stars](https://img.shields.io/github/stars/max-sixty/worktrunk?style=for-the-badge&logo=g",
+      "_meta_source": "api"
+    }
+  ]
+}
