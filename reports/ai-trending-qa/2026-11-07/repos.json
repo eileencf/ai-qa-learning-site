@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-07",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "NVIDIA/auto-ontology",
+      "html_url": "https://github.com/NVIDIA/auto-ontology",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 9286,
+      "forks_count": 736,
+      "open_issues_count": 63,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+        "Discover: generate enterprise ontologies from metadata; connect existing ontologies and semantic models; build AI-ready knowledge graphs.",
+        "Ground: give agents trusted business meaning for metrics, entities, and relationships; reconcile inconsistent definitions across systems.",
+        "Validate: check generated queries against certified definitions and lineage; return provenance with every answer.",
+        "Expose: serve context to any agent harness through MCP, CLI, and API.",
+        "**Natural-language querying** of structured data — questions are translated to"
+      ],
+      "readme_excerpt": "<!--\nSPDX-FileCopyrightText: Copyright (c) 2026, NVIDIA CORPORATION & AFFILIATES.\nAll rights reserved.\nSPDX-License-Identifier: Apache-2.0\n-->\n\n# Auto Ontology\n\nAgents can retrieve documents and query databases, but reliability gates agentic analytics: a revenue metric answered faster is worth nothing if the number is wrong. Agents need a context layer that tells them where data lives, what it means, whether to use it, how to use it, where it came from, and what is similar. NVIDIA Auto Ontology is an open library that builds that layer from enterprise metadata, reconciles definitions across systems, and exposes it to any agent harness through MCP, CLI, and API. It complements the semantic models customers already own.\n\nIt enables developers to:\n\n- Discover: generate enterprise ontologies from metadata; connect existing ontologies and semantic models; build AI-ready knowledge graphs.\n- Ground: give agents trusted business meaning for metrics, entities, and relationships; reconcile inconsistent definitions across systems.\n- Validate: check generated queries against certified definitions and lineage; return provenance with every answer.\n- Expose: serve context to any agent harness thr",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "rails/rails",
+      "html_url": "https://github.com/rails/rails",
+      "description": "Ruby on Rails",
+      "language": "Ruby",
+      "topics": [
+        "activejob",
+        "activerecord",
+        "framework",
+        "html",
+        "mvc",
+        "rails",
+        "ruby"
+      ],
+      "stargazers_count": 59052,
+      "forks_count": 23833,
+      "open_issues_count": 1762,
+      "arch_category": "RAG / 知识库",
+      "features": [
+        "Ruby on Rails",
+        "Action Mailer, a library to generate and send emails",
+        "Action Mailbox, a library to receive emails within a Rails application",
+        "Active Job, a framework for declaring jobs and making them run on a variety of queuing backends",
+        "Action Cable, a framework to integrate WebSockets with a Rails application",
+        "Active Storage, a library to attach cloud and local files to Rails applications"
+      ],
+      "readme_excerpt": "# Welcome to Rails\n\n## What's Rails?\n\nRails is a web application framework that includes everything needed to\ncreate database-backed web applications according to the\n[Model-View-Controller (MVC)](https://en.wikipedia.org/wiki/Model-view-controller)\npattern.\n\nUnderstanding the MVC pattern is key to understanding Rails. MVC divides your\napplication into three layers: Model, View, and Controller, each with a specific responsibility.\n\n## Model layer\n\nThe _**Model layer**_ represents the domain model (such as Account, Product,\nPerson, Post, etc.) and encapsulates the business logic specific to\nyour application. In Rails, database-backed model classes are derived from\n`ActiveRecord::Base`. [Active Record](activerecord/README.rdoc) allows you to present the data from\ndatabase rows as objects and embellish these data objects with business logic\nmethods.\nAlthough most Rails models are backed by a database, models can also be ordinary\nRuby classes, or Ruby classes that implement a set of interfaces as provided by\nthe [Active Model](activemodel/README.rdoc) module.\n\n## View layer\n\nThe _**View layer**_ is composed of \"templates\" that are responsible for providing\nappropriate representations o",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "google/skills",
+      "html_url": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "topics": [
+        "google",
+        "googlecloud",
+        "skills"
+      ],
+      "stargazers_count": 22932,
+      "forks_count": 1928,
+      "open_issues_count": 26,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Agent Skills for Google products and technologies",
+        "**Getting started with Google Cloud**",
+        "**Authenticating and Authorizing to Google Cloud (IAM)**",
+        "**Google Cloud Recipe: Foundation Builder**",
+        "**Onboarding to Google Cloud**",
+        "**Multi-product solution skills**"
+      ],
+      "readme_excerpt": "# Agent Skills\n\n[![Install via skills.sh](https://img.shields.io/badge/skills.sh-install-green)](https://skills.sh/google/skills)\n\nThis repository contains [Agent Skills](https://agentskills.io/home) for Google\nproducts and technologies, including [Google Cloud](https://cloud.google.com).\n\n## Installation\n\n```bash\nnpx skills add google/skills\n```\n\nWhen prompted, select specific skills or all skills, the target agents to\nconfigure, and the installation scope (project or global).\n\nIf `npx` is not available in your environment, install\n[Node.js](https://nodejs.org/en/download), which includes `npm` and `npx`.\n\n## Updating Skills\n\nTo update previously installed skills to the latest versions, run the following\ncommand.\n\n```bash\nnpx skills update\n```\n\nThis command gives you an option to also remove obsolete skills.\n\n## Available Skills\n\n<!-- BEGIN SKILLS -->\n- **Getting started with Google Cloud**\n  - [**Authenticating and Authorizing to Google Cloud (IAM)**](./skills/cloud/google-cloud-recipe-auth)\n  - [**Google Cloud Recipe: Foundation Builder**](./skills/cloud/google-cloud-recipe-foundation-builder)\n  - [**Onboarding to Google Cloud**](./skills/cloud/google-cloud-recipe-onboarding)\n- ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "mattpocock/skills",
+      "html_url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 316903,
+      "forks_count": 26518,
+      "open_issues_count": 217,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Skills for Real Engineers. Straight from my .agents directory.",
+        "Ask you which issue tracker you want to use (GitHub, GitLab, local files, or anything else you describe)",
+        "Ask you what labels you apply to tickets when you triage them (`/triage` uses labels)",
+        "Ask you where you want to save any docs we create",
+        "`/grill-me` - for non-code uses",
+        "`/grill-with-docs` - same as `/grill-me`, but adds more goodies (see below)"
+      ],
+      "readme_excerpt": "<p>\n  <a href=\"https://www.aihero.dev/s/skills-newsletter\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\">\n      <img alt=\"Skills\" src=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\" width=\"369\">\n    </picture>\n  </a>\n</p>\n\n# Skills For Real Engineers\n\n[![skills.sh](https://skills.sh/b/mattpocock/skills)](https://skills.sh/mattpocock/skills)\n\nMy agent skills that I use every day to do real engineering - not vibe coding.\n\nDeveloping real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve.\n\nThese skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy.\n\nIf you want to keep up with changes to these ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "cloudflare/security-audit-skill",
+      "html_url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "topics": [],
+      "stargazers_count": 64378,
+      "forks_count": 4172,
+      "open_issues_count": 115,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "**Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architecture.md` and `coverage-ledger.json`.",
+        "**Coverage-led hunting** -- assign isolated hunters from ledger units, record their checks, and use coverage critics to find gaps.",
+        "**Candidate validation** -- give every unique candidate to a fresh verifier that tries to disprove it.",
+        "**Structured output** -- write `confirmed`, `needs_validation`, and `rejected` records to `findings.json` and validate them against `report-schema.json`.",
+        "**Independent record verification** -- fresh agents verify final source claims. Material replacements receive another independent verifier."
+      ],
+      "readme_excerpt": "# security-audit\n\nA coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting.\n\nThis is the skill that seeded Cloudflare's vulnerability discovery harness, described in [Build your own vulnerability harness](https://blog.cloudflare.com/build-your-own-vulnerability-harness). The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from.\n\n## What it does\n\nThe skill runs a structured audit in six phases:\n\n1. **Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architecture.md` and `coverage-ledger.json`.\n2. **Coverage-led hunting** -- assign isolated hunters from ledger units, record their checks, and use coverage critics to find gaps.\n3. **Candidate validation** -- give every unique candidate to a fresh verifier that tries to disprove it.\n4. **Structured output** -- write `confirmed`, `needs_validation`, and `rejected` records to `findings.json` and validate them against `repor",
+      "_meta_source": "api"
+    }
+  ]
+}
