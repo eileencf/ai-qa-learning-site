@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-08",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "vercel-labs/agent-browser",
+      "html_url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "topics": [],
+      "stargazers_count": 46984,
+      "forks_count": 3221,
+      "open_issues_count": 505,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Browser automation CLI for AI agents",
+        "**Homebrew:** `brew install agent-browser`, then `agent-browser install`.",
+        "**Linux:** `agent-browser install --with-deps` also installs the browser's system libraries.",
+        "**No install:** `npx agent-browser open example.com`.",
+        "link \"Learn more\" [ref=e1]",
+        "Refs describe the page at the time of the snapshot. After navigation or a DOM change, take a new snapshot before using refs again."
+      ],
+      "readme_excerpt": "# agent-browser\n\nBrowser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell.\n\n<p>\n  <a href=\"https://vercel.com/labs#labs-products\"><img alt=\"Vercel Labs Product\" src=\"https://img.shields.io/badge/LABS-PRODUCT-0a0a0a.svg?style=for-the-badge&amp;logo=Vercel&amp;labelColor=000000\" height=\"28\"></a>\n  <a href=\"https://www.npmjs.com/package/agent-browser\"><img alt=\"npm version: agent-browser\" src=\"https://img.shields.io/npm/v/agent-browser.svg?style=for-the-badge&amp;labelColor=000000\" height=\"28\"></a>\n  <a href=\"https://github.com/vercel-labs/agent-browser/blob/main/LICENSE\"><img alt=\"License: Apache-2.0\" src=\"https://img.shields.io/github/license/vercel-labs/agent-browser.svg?style=for-the-badge&amp;labelColor=000000\" height=\"28\"></a>\n  <a href=\"https://www.npmjs.com/package/agent-browser\"><img alt=\"npm downloads per month: agent-browser\" src=\"https://img.shields.io/npm/dm/agent-browser.svg?style=for-the-badge&amp;labelColor=000000&amp;label=npm%20downloads\" height=\"28\"></a>\n  <a href=\"https://skills.sh/vercel-labs/agent-browser\"><img alt=\"skills.sh\" src=\"https://skills.sh/b/vercel-labs/agent-browser?style=for-the-badge\" height",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "cloudflare/security-audit-skill",
+      "html_url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "topics": [],
+      "stargazers_count": 66003,
+      "forks_count": 4295,
+      "open_issues_count": 120,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "**Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architecture.md` and `coverage-ledger.json`.",
+        "**Coverage-led hunting** -- assign isolated hunters from ledger units, record their checks, and use coverage critics to find gaps.",
+        "**Candidate validation** -- give every unique candidate to a fresh verifier that tries to disprove it.",
+        "**Structured output** -- write `confirmed`, `needs_validation`, and `rejected` records to `findings.json` and validate them against `report-schema.json`.",
+        "**Independent record verification** -- fresh agents verify final source claims. Material replacements receive another independent verifier."
+      ],
+      "readme_excerpt": "# security-audit\n\nA coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting.\n\nThis is the skill that seeded Cloudflare's vulnerability discovery harness, described in [Build your own vulnerability harness](https://blog.cloudflare.com/build-your-own-vulnerability-harness). The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from.\n\n## What it does\n\nThe skill runs a structured audit in six phases:\n\n1. **Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architecture.md` and `coverage-ledger.json`.\n2. **Coverage-led hunting** -- assign isolated hunters from ledger units, record their checks, and use coverage critics to find gaps.\n3. **Candidate validation** -- give every unique candidate to a fresh verifier that tries to disprove it.\n4. **Structured output** -- write `confirmed`, `needs_validation`, and `rejected` records to `findings.json` and validate them against `repor",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "google/skills",
+      "html_url": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "topics": [
+        "google",
+        "googlecloud",
+        "skills"
+      ],
+      "stargazers_count": 23506,
+      "forks_count": 1965,
+      "open_issues_count": 26,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Agent Skills for Google products and technologies",
+        "**Getting started with Google Cloud**",
+        "**Authenticating and Authorizing to Google Cloud (IAM)**",
+        "**Google Cloud Recipe: Foundation Builder**",
+        "**Onboarding to Google Cloud**",
+        "**Multi-product solution skills**"
+      ],
+      "readme_excerpt": "# Agent Skills\n\n[![Install via skills.sh](https://img.shields.io/badge/skills.sh-install-green)](https://skills.sh/google/skills)\n\nThis repository contains [Agent Skills](https://agentskills.io/home) for Google\nproducts and technologies, including [Google Cloud](https://cloud.google.com).\n\n## Installation\n\n```bash\nnpx skills add google/skills\n```\n\nWhen prompted, select specific skills or all skills, the target agents to\nconfigure, and the installation scope (project or global).\n\nIf `npx` is not available in your environment, install\n[Node.js](https://nodejs.org/en/download), which includes `npm` and `npx`.\n\n## Updating Skills\n\nTo update previously installed skills to the latest versions, run the following\ncommand.\n\n```bash\nnpx skills update\n```\n\nThis command gives you an option to also remove obsolete skills.\n\n## Available Skills\n\n<!-- BEGIN SKILLS -->\n- **Getting started with Google Cloud**\n  - [**Authenticating and Authorizing to Google Cloud (IAM)**](./skills/cloud/google-cloud-recipe-auth)\n  - [**Google Cloud Recipe: Foundation Builder**](./skills/cloud/google-cloud-recipe-foundation-builder)\n  - [**Onboarding to Google Cloud**](./skills/cloud/google-cloud-recipe-onboarding)\n- ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "mattpocock/skills",
+      "html_url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 317901,
+      "forks_count": 26598,
+      "open_issues_count": 219,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Skills for Real Engineers. Straight from my .agents directory.",
+        "Ask you which issue tracker you want to use (GitHub, GitLab, local files, or anything else you describe)",
+        "Ask you what labels you apply to tickets when you triage them (`/triage` uses labels)",
+        "Ask you where you want to save any docs we create",
+        "`/grill-me` - for non-code uses",
+        "`/grill-with-docs` - same as `/grill-me`, but adds more goodies (see below)"
+      ],
+      "readme_excerpt": "<p>\n  <a href=\"https://www.aihero.dev/s/skills-newsletter\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\">\n      <img alt=\"Skills\" src=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\" width=\"369\">\n    </picture>\n  </a>\n</p>\n\n# Skills For Real Engineers\n\n[![skills.sh](https://skills.sh/b/mattpocock/skills)](https://skills.sh/mattpocock/skills)\n\nMy agent skills that I use every day to do real engineering - not vibe coding.\n\nDeveloping real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve.\n\nThese skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy.\n\nIf you want to keep up with changes to these ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "anthropics/skills",
+      "html_url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "topics": [
+        "agent-skills"
+      ],
+      "stargazers_count": 188917,
+      "forks_count": 22268,
+      "open_issues_count": 1493,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Public repository for Agent Skills",
+        "What are skills?（https://support.claude.com/en/articles/12512176-what-are-skills）",
+        "Using skills in Claude（https://support.claude.com/en/articles/12512180-using-skills-in-claude）",
+        "How to create custom skills（https://support.claude.com/en/articles/12512198-creating-custom-skills）",
+        "Equipping agents for the real world with Agent Skills（https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills）",
+        "./skills: Skill examples for Creative & Design, Development & Technical, Enterprise & Communication, and Document Skills"
+      ],
+      "readme_excerpt": "> **Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see [agentskills.io](http://agentskills.io).\n\n[![skills.sh](https://skills.sh/b/anthropics/skills)](https://skills.sh/anthropics/skills)\n\n# Skills\nSkills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks.\n\nFor more information, check out:\n- [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)\n- [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude)\n- [How to create custom skills](https://support.claude.com/en/articles/12512198-creating-custom-skills)\n- [Equipping agents for the real world with Agent Skills](https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)\n\n# About This Repository\n\nThis repository contains skills that demonstrate what",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "meta/astryx",
+      "html_url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 14728,
+      "forks_count": 1208,
+      "open_issues_count": 725,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "An open source design system that's fully customizable and agent ready",
+        "**Open internals.** Components are built to be composed at any level, not locked behind a closed top-level API. The building blocks you'd reach for are exported directly, and when you need to go deeper, swizzle ejects a component's full source into your project to own.",
+        "**No styling lock-in.** Astryx authors its styles with StyleX, but that's invisible to consumers. Override with `className` using Tailwind, CSS modules, or plain CSS — whatever your project already uses.",
+        "**Customize without wrapping.** A theme is a set of CSS custom property overrides, so a designer can make Astryx unmistakably theirs without forking or wrapping component source.",
+        "**Built for people and agents.** The API, docs, and CLI are designed together so a person and an AI assistant build the same way, from the same reference.",
+        "**Guidance over enforcement.** Components give you capability rather than guardra"
+      ],
+      "readme_excerpt": "<!-- SYNC CONTRACT: Architecture changes require documentation updates. -->\n\n<div align=\"center\">\n\n<img src=\"https://lookaside.facebook.com/assets/astryx/Astryx-Banner.png\" alt=\"Astryx\" width=\"100%\" />\n\n# Astryx\n\nAn open source design system that's fully customizable and built for how we build now: <br/> by people and the agents working alongside them.\n\n**Currently in Beta** · Built on [React 19+](https://react.dev) and [StyleX](https://stylexjs.com)\n\n[![npm version](https://img.shields.io/npm/v/@astryxdesign/core?label=npm&color=cb3837&logo=npm)](https://www.npmjs.com/package/@astryxdesign/core)\n[![license MIT](https://img.shields.io/npm/l/@astryxdesign/core?color=blue)](LICENSE)\n[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/meta/astryx/wiki/Contributing)\n\n[![Docs](https://img.shields.io/badge/Docs-astryx.atmeta.com-6741d9?logo=readthedocs&logoColor=white)](https://astryx.atmeta.com)\n[![Storybook](https://img.shields.io/badge/Storybook-live-ff4785?logo=storybook&logoColor=white)](https://astryx.atmeta.com/storybook/)\n[![Sandbox](https://img.shields.io/badge/Sandbox-playground-A9792B)](https://astryx.atmeta.com/sandbox/)\n\n**[Docs](htt",
+      "_meta_source": "api"
+    }
+  ]
+}
