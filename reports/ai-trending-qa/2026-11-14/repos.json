@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-14",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "alibaba/open-code-review",
+      "html_url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "code-review",
+        "code-review-assistant",
+        "harness",
+        "repository-level-context"
+      ],
+      "stargazers_count": 50811,
+      "forks_count": 3782,
+      "open_issues_count": 340,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "**Incomplete coverage** — On larger changesets, agents tend to \"cut corners,\" selectively reviewing only some files and missing others.",
+        "**Position drift** —"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <a href=\"https://open-codereview.ai\">\n    <img src=\"imgs/logo-core.svg\" alt=\"OpenCodeReview logo\" width=\"180\" />\n  </a>\n  <h1>OpenCodeReview</h1>\n</div>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/41087?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-41087\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <img src=\"https://trendshift.io/api/badge/repositories/41087\" alt=\"alibaba%2Fopen-code-review | Trendshift\" style=\"width: 280px; height: 60px;\" width=\"280\" height=\"60\" />\n  </a>\n</p>\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/41087\" target=\"_blank\">\n    <img src=\"https://trendshift.io/api/badge/trendshift/repositories/41087/weekly\" alt=\"alibaba%2Fopen-code-review | Trendshift\" style=\"width: 280px; height: 60px;\" width=\"280\" height=\"60\" />\n  </a>\n  <a href=\"https://trendshift.io/repositories/41087\" target=\"_blank\">\n    <img src=\"https://trendshift.io/api/badge/trendshift/repositories/41087/monthly?language=Go\" alt=\"alibaba%2Fopen-code-review | Trendshift\" style=\"width: 280px; height: 60px;\" width=\"280\" height=\"60\" />\n  </a>\n</p>\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/pac",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "GoogleChrome/modern-web-guidance-src",
+      "html_url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 5054,
+      "forks_count": 277,
+      "open_issues_count": 389,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Keep your coding agent up to date with the latest web best practices",
+        "**Modern Browser APIs**: Helping models correctly structure APIs they frequently misuse.",
+        "**Performance & Accessibility**: Preferring platform-level APIs that can be optimized by the browser and include built-in accessibility affordances.",
+        "**Responsible Fallbacks**: Guiding models to use sensible, lightweight fallbacks instead of heavy polyfills or legacy libraries."
+      ],
+      "readme_excerpt": "# <img src=\"./.github/img/modern-web-guidance.svg\" alt=\"Modern Web Guidance\" width=\"30\" height=\"30\"> Modern Web Guidance (Source)\n\nThis repo is the source repository for [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance) and includes the code and documentation for authoring, calibrating, and evaluating its contents.\n\n[**Modern Web Guidance**](https://developer.chrome.com/docs/modern-web-guidance) is a set of skills that embed web platform expertise, best practices, and browser compatibility data directly into your coding agents. It helps to steer your coding agents away from legacy patterns, and instead toward solutions that harness the power and capabilities of the modern web platform.\n\nSee [CONTRIBUTING.md](./CONTRIBUTING.md) and [GOVERNANCE.md](./GOVERNANCE.md) for how we work on the project and orientation of the codebase.\n\n---\n\n*Stewarded by the Google Chrome, Microsoft Edge, Mozilla Firefox, and MDN teams, alongside the web development community.*\n\n[Documentation](https://developer.chrome.com/docs/modern-web-guidance) · [Eval Dashboard](https://googlechrome.github.io/modern-web-guidance-src/) · [Source Code](https://github.com/GoogleChrome",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "openai/codex-security",
+      "html_url": "https://github.com/openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "language": "TypeScript",
+      "topics": [
+        "ai-security",
+        "application-security",
+        "cli",
+        "code-scanning",
+        "codex",
+        "codex-security",
+        "cybersecurity",
+        "devsecops",
+        "nodejs",
+        "npm",
+        "openai",
+        "sdk",
+        "security",
+        "typescript",
+        "vulnerability-scanning"
+      ],
+      "stargazers_count": 13246,
+      "forks_count": 1027,
+      "open_issues_count": 170,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+        "**In Codex:** choose a security workflow.",
+        "**In a terminal:** install the CLI and scan your repository.",
+        "**In automation:** use the TypeScript SDK or",
+        "Scan repositories, selected paths, or Git changes. Deep scans repeat Standard scans and return their deduplicated findings.",
+        "Validate candidate findings, generate patches, and verify existing fixes."
+      ],
+      "readme_excerpt": "# Codex Security\n\nCodex Security helps you find, investigate, and fix vulnerabilities in your code.\nUse its security workflows in Codex, or automate them with the\n`@openai/codex-security` CLI and TypeScript SDK.\n\n- **In Codex:** [choose a security workflow](docs/agent-workflows.md).\n- **In a terminal:** [install the CLI and scan your repository](#quick-start).\n- **In automation:** use the [TypeScript SDK](#typescript-sdk) or\n  [GitHub Action](#github-actions).\n\n## Features\n\n- Scan repositories, selected paths, or Git changes. Deep scans repeat Standard scans and return their deduplicated findings.\n- Validate candidate findings, generate patches, and verify existing fixes.\n- Draft `SECURITY.md` policies and save threat models for later review.\n- Browse saved scans and findings, identify duplicates, assess severity against\n  your own rubric, and suggest owners from source and Git history.\n- Preview third-party scanner findings, save them locally, or publish supported reports to Codex Security Cloud. [Scanner import guides](docs/scanner-imports/README.md).\n- Track findings in Linear, Jira, or GitHub, publish completed scans, or export SARIF, JSON, and CSV. [Integration workflows](docs",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "html_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "topics": [
+        "a-stock",
+        "ai-agent",
+        "aigc",
+        "llm",
+        "quant",
+        "quantitative-finance",
+        "quantitative-trading"
+      ],
+      "stargazers_count": 71841,
+      "forks_count": 57355,
+      "open_issues_count": 58,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n# 📈 股票智能分析系统\n\n[![GitHub stars](https://img.shields.io/github/stars/ZhuLinsen/daily_stock_analysis?style=social)](https://github.com/ZhuLinsen/daily_stock_analysis/stargazers)\n[![arXiv](https://img.shields.io/badge/arXiv-2608.26990-b31b1b.svg)](https://arxiv.org/abs/2608.26990)\n[![CI](https://github.com/ZhuLinsen/daily_stock_analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/ZhuLinsen/daily_stock_analysis/actions/workflows/ci.yml)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)\n[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Ready-2088FF?logo=github-actions&logoColor=white)](https://github.com/features/actions)\n[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](https://hub.docker.com/r/zhulinsen/daily_stock_analysis)\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/18527?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-18527\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"htt",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "backnotprop/plannotator",
+      "html_url": "https://github.com/backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. ",
+      "language": "TypeScript",
+      "topics": [
+        "agents",
+        "claude-code",
+        "code-review",
+        "codex",
+        "obsidian",
+        "opencode",
+        "pi-mono",
+        "plan-mode",
+        "skills"
+      ],
+      "stargazers_count": 10556,
+      "forks_count": 790,
+      "open_issues_count": 210,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\".github/assets/banner.webp\" alt=\"Plannotator\" width=\"640\" />\n</p>\n\n\n\n<p align=\"center\">\n  <strong>Everything you need to annotate and stay in the loop with your agents</strong><br/>\n  <strong>Inbox Surface • Artifacts • Code Review</strong><br/>\n  <sub>Annotate plans, specs, markdown, HTML, and other interactive artifacts. Review diffs and PRs. Send feedback to your agent.</sub>\n</p>\n\n<p align=\"center\">\n  <img src=\".github/assets/icons/amp.svg\" alt=\"Amp\" title=\"Amp\" height=\"28\" />&nbsp;&nbsp;\n  <img src=\".github/assets/icons/claude.svg\" alt=\"Claude Code\" title=\"Claude Code\" height=\"28\" />&nbsp;&nbsp;\n  <img src=\".github/assets/icons/codex.png\" alt=\"Codex\" title=\"Codex\" height=\"28\" />&nbsp;&nbsp;\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\".github/assets/icons/copilot-dark.svg\" />\n    <img src=\".github/assets/icons/copilot-light.svg\" alt=\"Copilot CLI\" title=\"Copilot CLI\" height=\"28\" />\n  </picture>&nbsp;&nbsp;\n  <img src=\".github/assets/icons/droid.png\" alt=\"Droid\" title=\"Droid\" height=\"28\" />&nbsp;&nbsp;\n  <img src=\".github/assets/icons/gemini.png\" alt=\"Gemini CLI\" title=\"Gemini CLI\" height=\"28\" />&nbsp;&nbsp;\n  <img src=\".git",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "tailscale/tailcat",
+      "html_url": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "topics": [],
+      "stargazers_count": 9562,
+      "forks_count": 435,
+      "open_issues_count": 42,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "like netcat, but over Tailscale's data plane, without Tailscale's control plane"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"tailcat.png\" alt=\"Tailcat\" width=\"149\" height=\"176\">\n</p>\n\n<p align=\"center\"><em>\"Tailscale without Tailscale, by Tailscale\"</em></p>\n\n<p align=\"center\">\n  <a href=\"https://pkg.go.dev/github.com/tailscale/tailcat\"><img src=\"https://pkg.go.dev/badge/github.com/tailscale/tailcat.svg\" alt=\"Go Reference\"></a>\n  <a href=\"https://bsky.app/profile/tailcat.dev\"><img src=\"https://img.shields.io/badge/Bluesky-@tailcat.dev-0285FF?logo=bluesky&logoColor=white\" alt=\"Follow @tailcat.dev on Bluesky\"></a>\n</p>\n\n# Tailcat\n\nTailcat is a remix of Tailscale open source pieces to act like\n[netcat](https://en.wikipedia.org/wiki/Netcat), but over Tailscale's data plane,\nwithout Tailscale's control plane. Tailscale's data plane (`magicsock`,\ninternally) gives you point-to-point WireGuard®-encrypted tunnels between two\nmachines with DERP as the NAT-hole-punching communication side channel and the\nultimate relay-of-last-resort if NAT traversal fails. Instead of using the\nTailscale control plane, all `tailcat` connection metadata is exchanged out of\nband, however you want.\n\nThe `tailcat` CLI (in `cmd/tailcat`) is built on the `tailcat` Go library\n(importable as [`github.com/tai",
+      "_meta_source": "api"
+    }
+  ]
+}
