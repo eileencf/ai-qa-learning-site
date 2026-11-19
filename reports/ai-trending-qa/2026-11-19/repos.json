@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-19",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "HKUDS/CLI-Anything",
+      "html_url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 60012,
+      "forks_count": 5449,
+      "open_issues_count": 248,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "**2026-05-30** 🧭 **Hermes skill** proposed (#320), adding a CLI-Anything orchestration skill with installer scripts and HARNESS fallback guidance. 🗺️ **ArcGIS Pro** was proposed for the public registry (#318) as a Windows/ArcPy CLI for cartography, geoprocessing, feature editing, and live-Pro MCP workflows.",
+        "**2026-05-27** 🔧 **CLI-Hub** registry date updates now handle `python -m pip` install commands (#312), improving package-date detection for registry automation.",
+        "**2026-05-23** 📝 **Obsidian Agent CLI** was proposed for the public registry (#307), bringing a PyPI-installed Obsidian automation CLI with persistent agent memory workflows and a pinned skill link.",
+        "**2026-05-21** 🔒 **Sketch CLI** token-file handling was hardened against path traversal and symlink escapes (#304).",
+        "**2026-05-20** 📓 **Joplin CLI** was proposed (#300) with notebooks, notes, to-dos, tags, attachments, search/sync, import/export, server/E2EE helpers, full docs, packaged skill docs, and a 134-test validation baseline."
+      ],
+      "readme_excerpt": "<h1 align=\"center\"><img src=\"assets/icon.png\" alt=\"\" width=\"64\" style=\"vertical-align: middle;\">&nbsp; CLI-Anything: Making ALL Software Agent-Native</h1>\n\n<div align=\"center\">\n<a href=\"https://www.star-history.com/hkuds/cli-anything\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=HKUDS/CLI-Anything&amp;type=trending&amp;theme=dark\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/badge?repo=HKUDS/CLI-Anything&amp;type=trending\"><img alt=\"GitHub Trending Repository of the Day\" src=\"https://api.star-history.com/badge?repo=HKUDS/CLI-Anything&amp;type=trending\" height=\"55\"></picture></a>&#32;<a href=\"https://trendshift.io/repositories/22991\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/22991\" alt=\"HKUDS/CLI-Anything | Trendshift\" height=\"55\"></a>&#32;<a href=\"https://www.star-history.com/hkuds/cli-anything\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=HKUDS/CLI-Anything&amp;type=rank&amp;theme=dark\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/badge?repo=HKUDS/CLI-Anything&amp;t",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "html_url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "topics": [
+        "ai-prompts",
+        "ai-skill",
+        "bluesky",
+        "claude",
+        "claude-code",
+        "clawhub",
+        "deep-research",
+        "hackernews",
+        "instagram",
+        "openclaw",
+        "polymarket",
+        "recency",
+        "reddit",
+        "research",
+        "social-media",
+        "tiktok",
+        "trends",
+        "twitter",
+        "web-search",
+        "youtube"
+      ],
+      "stargazers_count": 70277,
+      "forks_count": 6259,
+      "open_issues_count": 23,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+      ],
+      "readme_excerpt": "# /last30days\n\nEnglish | [Français](README.fr.md) | [Deutsch](README.de.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md) | [العربية](README.ar.md) | [فارسی](README.fa.md) | [Türkçe](README.tr.md)\n\n<p align=\"center\">\n  <img src=\"media/pr-assets/last30days-ad.gif\" width=\"720\" alt=\"last30days - an AI agent-led search engine that searches people, not editors\" />\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/mvanhorn/last30days-skill\">\n    <img src=\"https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING\" alt=\"GitHub Trending #1 Repository Of The Day\" />\n  </a>\n  <br/>\n  <a href=\"https://trendshift.io/repositories/21997\" target=\"_blank\">\n    <img src=\"https://trendshift.io/api/badge/repositories/21997\" alt=\"mvanhorn/last30days-skill | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/>\n  </a>\n  <br/>\n  <a href=\"https://github.com/mvanhorn/last30days-skill/actions/workflows/validate.yml\">\n    <img src=\"https://github.com/mvanhorn/last30days-skill/actions/workflows/validate.yml/badge.svg\" alt=\"Validate status\" />\n  </a>\n</",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "getarcaneapp/arcane",
+      "html_url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "language": "Go",
+      "topics": [
+        "compose",
+        "container-management",
+        "containers",
+        "docker",
+        "docker-compose",
+        "docker-management",
+        "go",
+        "self-hosted",
+        "sveltekit",
+        "typescript",
+        "web-ui"
+      ],
+      "stargazers_count": 9956,
+      "forks_count": 570,
+      "open_issues_count": 16,
+      "arch_category": "应用层 / UI",
+      "features": [
+        "Modern Docker Management, Designed for Everyone"
+      ],
+      "readme_excerpt": "> [!NOTE]\n> The `main` branch is the v3 version of Arcane See the [`release/2.x.x`](https://github.com/getarcaneapp/arcane/tree/release/2.x.x) branch for the last 2.x release.\n\n> [!IMPORTANT]\n> Feature requests have moved to [Discussions](https://github.com/getarcaneapp/arcane/discussions/categories/feature-requests). Open new requests and upvote existing ones there; issues are only used for Bug reports now to help maintain priority on those issues.\n\n<div align=\"center\">\n\n  <img src=\".github/assets/img/arcane-full-trace-fill.svg\" alt=\"Arcane Logo\" width=\"500\" />\n  <p>Modern Docker Management, Designed for Everyone.</p>\n\n<a title=\"Crowdin\" target=\"_blank\" href=\"https://crowdin.com/project/arcane-docker-management\"><img src=\"https://badges.crowdin.net/arcane-docker-management/localized.svg\"></a>\n<a href=\"https://pkg.go.dev/getarcane.dev/arcane/v3\"><img src=\"https://pkg.go.dev/badge/getarcane.dev/arcane/v3.svg\" alt=\"Go Reference\"></a>\n<a href=\"https://github.com/getarcaneapp/arcane/blob/main/LICENSE\"><img src=\"https://img.shields.io/badge/license-BSD--3--Clause-blue.svg\" alt=\"License\"></a>\n<a href=\"https://snyk.io/test/github/getarcaneapp/arcane\"><img src=\"https://snyk.io/test/github/",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "NVIDIA/SkillEvaluator",
+      "html_url": "https://github.com/NVIDIA/SkillEvaluator",
+      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, security scanning, harness compatibility checks, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior. Ships reusable CI templates that bring every check to any repository.",
+      "language": "Python",
+      "topics": [
+        "agent-evaluation",
+        "agent-plugins",
+        "agent-security",
+        "agent-skills",
+        "agentic-ai",
+        "benchmark",
+        "ci-templates",
+        "claude-code",
+        "codex",
+        "evaluate",
+        "evaluation",
+        "harness",
+        "plugin",
+        "plugin-evaluation",
+        "security-scanner",
+        "skill-eval",
+        "skill-evaluation",
+        "skill-evaluator",
+        "skill-gap-analysis",
+        "skills"
+      ],
+      "stargazers_count": 3884,
+      "forks_count": 530,
+      "open_issues_count": 66,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, security scanning, harness compatibility checks, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior. Ships reusable CI templates that bring every check to any repository."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n# ![SkillEvaluator](https://raw.githubusercontent.com/NVIDIA/SkillEvaluator/ad2815fe78c045db91d230681d32863698da08cf/docs/assets/skillevaluator-wordmark.svg)\n\n<h4>Evaluate and improve AI agent skills and plugins: quality, security, overlap, compatibility, and real impact across agents</h4>\n\n[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)\n[![Python](https://img.shields.io/badge/Python-3.12%20%7C%203.13%20%7C%203.14-blue.svg)](https://www.python.org/)\n[![PyPI](https://img.shields.io/pypi/v/skillevaluator.svg?label=PyPI)](https://pypi.org/project/skillevaluator/)\n[![Reusable CI templates](https://img.shields.io/badge/Reusable%20CI-templates-blue.svg)](https://docs.nvidia.com/skills/skillevaluator/repository-integration#copy-a-template)\n[![Documentation](https://img.shields.io/badge/Documentation-docs.nvidia.com-blue.svg)](https://docs.nvidia.com/skills/skillevaluator/)\n[![Paper](https://img.shields.io/badge/arXiv-2608.20614-b31b1b.svg)](https://arxiv.org/abs/2608.20614)\n[![Blog](https://img.shields.io/badge/Blog-NVIDIA%20Developer-76B900.svg)](https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-sk",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "google-research/paper-orchestra",
+      "html_url": "https://github.com/google-research/paper-orchestra",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "language": "Python",
+      "topics": [
+        "ai-research-assistant",
+        "multi-agent-systems"
+      ],
+      "stargazers_count": 4570,
+      "forks_count": 565,
+      "open_issues_count": 43,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+        "**Multi-Agent Pipeline**: Orchestrates specialized agents (Outline, Literature Review, Section Writing, Content Refinement, Plotting) for end-to-end paper generation.",
+        "**Comprehensive Literature Synthesis**: Automatically searches, prioritizes, and integrates relevant literature into the manuscript.",
+        "**Visuals Generation**: Generates plots and supports the inclusion of conceptual diagrams.",
+        "**LaTeX Automation**: Produces submission-ready LaTeX manuscripts adhering to target conference templates.",
+        "**Environment Setup**: The project relies on a Conda environment named `paper_orchestra`. You can set up a similar environment with Python 3.11 and install the required dependencies."
+      ],
+      "readme_excerpt": "# <div align=\"center\">🎻 PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing</div>\n<div align=\"center\">Yiwen Song<sup>1</sup>, Yale Song<sup>1</sup>, Tomas Pfister<sup>1</sup>, and Jinsung Yoon<sup>1</sup></div>\n<div align=\"center\"><sup>1</sup>Google Cloud AI Research</div>\n<br><br>\n\nPaperOrchestra is a multi-agent framework for automated AI research paper writing. It flexibly transforms unconstrained pre-writing materials (ideas and experimental logs) into submission-ready LaTeX manuscripts, including comprehensive literature synthesis and generated visuals, such as plots and conceptual diagrams.\n\nActing like an orchestrated team of specialized agents, it handles outline generation, literature review, section writing, content refinement, and plotting to close the gap between raw research materials and submission ready papers.\n\n<div align=\"center\">\n  <img src=\"assets/overview.png\" alt=\"PaperOrchestra Overview\" width=\"90%\"/>\n</div>\n\n## Key Features\n\n- **Multi-Agent Pipeline**: Orchestrates specialized agents (Outline, Literature Review, Section Writing, Content Refinement, Plotting) for end-to-end paper generation.\n- **Comprehensive Literature Synthesis**:",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "google-labs-code/stitch-skills",
+      "html_url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 10503,
+      "forks_count": 1372,
+      "open_issues_count": 21,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+        "**`stitch-design`** — design-focused skills",
+        "**`stitch-build`** — build and component skills",
+        "**`stitch-utilities`** — utility and helper skills"
+      ],
+      "readme_excerpt": "# Stitch Design Skills\n\nA collection of agent skills and plugins for [Google Stitch](https://stitch.withgoogle.com), following the [Agent Skills](https://agentskills.io) open standard. Compatible with coding agents such as Codex, Antigravity, Gemini CLI, Claude Code, Cursor, and OpenCode (manual install).\n\n## Quick Start\n\n### 1. Install Plugins (Recommended)\nThe fastest way to set up the full Stitch plugin suite globally.\n\n#### Codex\n\nAdd the Stitch Skills marketplace, then install the plugins you need.\n\n<details open>\n<summary><strong>Via CLI</strong> (recommended)</summary>\n\n```bash\ncodex plugin marketplace add google-labs-code/stitch-skills --ref main \\\n  --sparse .agents/plugins \\\n  --sparse plugins/stitch-design \\\n  --sparse plugins/stitch-build \\\n  --sparse plugins/stitch-utilities\n```\n\n> [!TIP]\n> The `--sparse` flags are optional — they limit the checkout to only the\n> listed paths for a faster clone. Omit them to pull the entire repository.\n\n</details>\n\n<details>\n<summary><strong>Via the Codex UI</strong></summary>\n\nNavigate to **Settings → Plugin Marketplaces → Add** and fill in:\n\n| Field | Value |\n|---|---|\n| **Source** | `https://github.com/google-labs-code/stitch-skills",
+      "_meta_source": "api"
+    }
+  ]
+}
